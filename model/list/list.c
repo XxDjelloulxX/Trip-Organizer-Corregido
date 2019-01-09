@@ -157,9 +157,13 @@ int isEmpty(List l) {
 
 void destroy(List * l) {
 
+	int i;
 	goStart(l, 0);
 
 	while (!isEmpty(*l)) {
+		for (i = 0; i < MAX_SORTING; i++) {
+			freeAll(&(l->poi[i]->dest));
+		}
 		removePoi(l, 0);
 	}
 
