@@ -5,7 +5,7 @@
 #include "model/list/list.h"
 #include "model/destination/destination.h"
 
-#define PATH "data/mainDatabase.nymal"
+#define PATH "C:\\Users\\Asus\\Desktop\\dEBUG\\Trip-Organizer-Corregido\\data\\mainDatabase.nymal"
 
 int main() {
 	int option;
